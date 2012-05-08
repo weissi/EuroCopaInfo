@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "FRLayeredNavigationController/FRLayeredNavigationController.h"
+#import "InfoCategoriesViewController.h"
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -15,8 +18,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
+    
+    InfoCategoriesViewController *icvc = [[InfoCategoriesViewController alloc] init];
+    FRLayeredNavigationController *lnc = [[FRLayeredNavigationController alloc] initWithRootViewController:icvc configuration:^(FRLayeredNavigationItem *item) {
+        item.nextItemDistance = 49;
+    }];
+    self.window.rootViewController = lnc;
     [self.window makeKeyAndVisible];
     return YES;
 }

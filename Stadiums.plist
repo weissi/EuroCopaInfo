@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Poland</string>
+		<key>children</key>
+		<array>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/National_Stadium,_Warsaw</string>
+				<key>name</key>
+				<string>National Stadium</string>
+				<key>city</key>
+				<string>Warsaw</string>
+				<key>capacity</key>
+				<integer>50000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/PGE_Arena_Gda%C5%84sk</string>
+				<key>name</key>
+				<string>PGE Arena</string>
+				<key>city</key>
+				<string>Gdańsk</string>
+				<key>capacity</key>
+				<integer>40000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Stadion_Miejski_(Wroc%C5%82aw)</string>
+				<key>name</key>
+				<string>Municipal Stadium</string>
+				<key>city</key>
+				<string>Wrocław</string>
+				<key>capacity</key>
+				<integer>40000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Stadion_Miejski_(Pozna%C5%84)</string>
+				<key>name</key>
+				<string>Municipal Stadium</string>
+				<key>city</key>
+				<string>Poznań</string>
+				<key>capacity</key>
+				<integer>40000</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ukraine</string>
+		<key>children</key>
+		<array>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Olimpiysky_National_Sports_Complex</string>
+				<key>name</key>
+				<string>Olympic Stadium</string>
+				<key>city</key>
+				<string>Kiev</string>
+				<key>capacity</key>
+				<integer>60000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Donbass_Arena</string>
+				<key>name</key>
+				<string>Donbass Arena</string>
+				<key>city</key>
+				<string>Donetsk</string>
+				<key>capacity</key>
+				<integer>50000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Metalist_Stadium</string>
+				<key>name</key>
+				<string>Metalist Stadium</string>
+				<key>city</key>
+				<string>Kharkiv</string>
+				<key>capacity</key>
+				<integer>35000</integer>
+			</dict>
+			<dict>
+				<key>wikipedia-url</key>
+				<string>http://en.wikipedia.org/wiki/Arena_Lviv</string>
+				<key>name</key>
+				<string>Arena Lviv</string>
+				<key>city</key>
+				<string>Lviv</string>
+				<key>capacity</key>
+				<integer>30000</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

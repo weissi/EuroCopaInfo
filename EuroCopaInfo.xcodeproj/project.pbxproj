@@ -13,19 +13,101 @@
 		DA722ABA15592B9600006D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA722AB815592B9600006D36 /* InfoPlist.strings */; };
 		DA722ABC15592B9600006D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ABB15592B9600006D36 /* main.m */; };
 		DA722AC015592B9600006D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ABF15592B9600006D36 /* AppDelegate.m */; };
+		DA722AD515592C1100006D36 /* InfoCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722AD415592C1100006D36 /* InfoCategoriesViewController.m */; };
+		DA722AD615592D0300006D36 /* libFRLayeredNavigationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AD015592BB700006D36 /* libFRLayeredNavigationController.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		DA722ADC15592E3100006D36 /* StadiumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ADB15592E3100006D36 /* StadiumsViewController.m */; };
+		DA722ADF15592EB100006D36 /* Stadiums.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA722ADE15592EB100006D36 /* Stadiums.plist */; };
+		DA722AE21559305F00006D36 /* TablePListDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722AE11559305F00006D36 /* TablePListDAO.m */; };
+		DA722AE71559387700006D36 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722AE61559387700006D36 /* URLWebViewController.m */; };
+		DA84BDF815597BBE00C7D7A2 /* Croatia.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDE815597BBE00C7D7A2 /* Croatia.png */; };
+		DA84BDF915597BBF00C7D7A2 /* Denmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDE915597BBE00C7D7A2 /* Denmark.png */; };
+		DA84BDFA15597BBF00C7D7A2 /* England.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEA15597BBE00C7D7A2 /* England.png */; };
+		DA84BDFB15597BBF00C7D7A2 /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEB15597BBE00C7D7A2 /* France.png */; };
+		DA84BDFC15597BBF00C7D7A2 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEC15597BBE00C7D7A2 /* Germany.png */; };
+		DA84BDFD15597BBF00C7D7A2 /* Greece.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDED15597BBE00C7D7A2 /* Greece.png */; };
+		DA84BDFE15597BBF00C7D7A2 /* Ireland.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEE15597BBE00C7D7A2 /* Ireland.png */; };
+		DA84BDFF15597BBF00C7D7A2 /* Italy.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEF15597BBE00C7D7A2 /* Italy.png */; };
+		DA84BE0015597BBF00C7D7A2 /* Poland.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF015597BBE00C7D7A2 /* Poland.png */; };
+		DA84BE0115597BBF00C7D7A2 /* Portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF115597BBE00C7D7A2 /* Portugal.png */; };
+		DA84BE0215597BBF00C7D7A2 /* Russia.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF215597BBE00C7D7A2 /* Russia.png */; };
+		DA84BE0315597BBF00C7D7A2 /* Spain.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF315597BBE00C7D7A2 /* Spain.png */; };
+		DA84BE0415597BBF00C7D7A2 /* Sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF415597BBE00C7D7A2 /* Sweden.png */; };
+		DA84BE0515597BBF00C7D7A2 /* Czech_Republic.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF515597BBE00C7D7A2 /* Czech_Republic.png */; };
+		DA84BE0615597BBF00C7D7A2 /* Netherlands.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF615597BBE00C7D7A2 /* Netherlands.png */; };
+		DA84BE0715597BBF00C7D7A2 /* Ukraine.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDF715597BBE00C7D7A2 /* Ukraine.png */; };
+		DA84BE0915597C1500C7D7A2 /* Teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE0815597C1500C7D7A2 /* Teams.plist */; };
+		DA84BE0D15597E7F00C7D7A2 /* TeamsViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE0C15597E7F00C7D7A2 /* TeamsViewController.h */; };
+		DA84BE0F15597E9400C7D7A2 /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */; };
+		DA84BE15155989D200C7D7A2 /* teams.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE13155989D200C7D7A2 /* teams.png */; };
+		DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE14155989D200C7D7A2 /* stadiums.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA722ACF15592BB700006D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA4FACC615591AB300D85A7E;
+			remoteInfo = FRLayeredNavigationController;
+		};
+		DA722AD115592BB700006D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA4FAD0215591BD500D85A7E;
+			remoteInfo = FRLayeredNavigationControllerDemo;
+		};
+		DA722AE31559340F00006D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4FACC515591AB300D85A7E;
+			remoteInfo = FRLayeredNavigationController;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DA722AAB15592B9600006D36 /* EuroCopaInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroCopaInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA722AAF15592B9600006D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA722AB115592B9600006D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA722AB315592B9600006D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA722AB715592B9600006D36 /* EuroCopaInfo-Info.plist */ = {isa = PBXFileReference; path = "EuroCopaInfo-Info.plist"; sourceTree = "<group>"; };
+		DA722AB715592B9600006D36 /* EuroCopaInfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EuroCopaInfo-Info.plist"; sourceTree = "<group>"; };
 		DA722AB915592B9600006D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA722ABB15592B9600006D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA722ABD15592B9600006D36 /* EuroCopaInfo-Prefix.pch */ = {isa = PBXFileReference; path = "EuroCopaInfo-Prefix.pch"; sourceTree = "<group>"; };
-		DA722ABE15592B9600006D36 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA722ABD15592B9600006D36 /* EuroCopaInfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EuroCopaInfo-Prefix.pch"; sourceTree = "<group>"; };
+		DA722ABE15592B9600006D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA722ABF15592B9600006D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FRLayeredNavigationController.xcodeproj; path = ../FRLayeredNavigationController/FRLayeredNavigationController.xcodeproj; sourceTree = "<group>"; };
+		DA722AD315592C1100006D36 /* InfoCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoCategoriesViewController.h; sourceTree = "<group>"; };
+		DA722AD415592C1100006D36 /* InfoCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoCategoriesViewController.m; sourceTree = "<group>"; };
+		DA722ADA15592E3100006D36 /* StadiumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumsViewController.h; sourceTree = "<group>"; };
+		DA722ADB15592E3100006D36 /* StadiumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StadiumsViewController.m; sourceTree = "<group>"; };
+		DA722ADE15592EB100006D36 /* Stadiums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stadiums.plist; sourceTree = "<group>"; };
+		DA722AE01559305F00006D36 /* TablePListDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePListDAO.h; sourceTree = "<group>"; };
+		DA722AE11559305F00006D36 /* TablePListDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePListDAO.m; sourceTree = "<group>"; };
+		DA722AE51559387700006D36 /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLWebViewController.h; path = ../../FactisApp/Classes/URLWebViewController.h; sourceTree = "<group>"; };
+		DA722AE61559387700006D36 /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLWebViewController.m; path = ../../FactisApp/Classes/URLWebViewController.m; sourceTree = "<group>"; };
+		DA84BDE815597BBE00C7D7A2 /* Croatia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Croatia.png; sourceTree = "<group>"; };
+		DA84BDE915597BBE00C7D7A2 /* Denmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Denmark.png; sourceTree = "<group>"; };
+		DA84BDEA15597BBE00C7D7A2 /* England.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = England.png; sourceTree = "<group>"; };
+		DA84BDEB15597BBE00C7D7A2 /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
+		DA84BDEC15597BBE00C7D7A2 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		DA84BDED15597BBE00C7D7A2 /* Greece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greece.png; sourceTree = "<group>"; };
+		DA84BDEE15597BBE00C7D7A2 /* Ireland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ireland.png; sourceTree = "<group>"; };
+		DA84BDEF15597BBE00C7D7A2 /* Italy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy.png; sourceTree = "<group>"; };
+		DA84BDF015597BBE00C7D7A2 /* Poland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poland.png; sourceTree = "<group>"; };
+		DA84BDF115597BBE00C7D7A2 /* Portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portugal.png; sourceTree = "<group>"; };
+		DA84BDF215597BBE00C7D7A2 /* Russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Russia.png; sourceTree = "<group>"; };
+		DA84BDF315597BBE00C7D7A2 /* Spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spain.png; sourceTree = "<group>"; };
+		DA84BDF415597BBE00C7D7A2 /* Sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweden.png; sourceTree = "<group>"; };
+		DA84BDF515597BBE00C7D7A2 /* Czech_Republic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Czech_Republic.png; sourceTree = "<group>"; };
+		DA84BDF615597BBE00C7D7A2 /* Netherlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Netherlands.png; sourceTree = "<group>"; };
+		DA84BDF715597BBE00C7D7A2 /* Ukraine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ukraine.png; sourceTree = "<group>"; };
+		DA84BE0815597C1500C7D7A2 /* Teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Teams.plist; sourceTree = "<group>"; };
+		DA84BE0C15597E7F00C7D7A2 /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
+		DA84BE13155989D200C7D7A2 /* teams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams.png; sourceTree = "<group>"; };
+		DA84BE14155989D200C7D7A2 /* stadiums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadiums.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA722AD615592D0300006D36 /* libFRLayeredNavigationController.a in Frameworks */,
 				DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */,
 				DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */,
 				DA722AB415592B9600006D36 /* CoreGraphics.framework in Frameworks */,
@@ -45,9 +128,11 @@
 		DA722AA015592B9600006D36 = {
 			isa = PBXGroup;
 			children = (
+				DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */,
 				DA722AB515592B9600006D36 /* EuroCopaInfo */,
 				DA722AAE15592B9600006D36 /* Frameworks */,
 				DA722AAC15592B9600006D36 /* Products */,
+				DA722ADD15592E8D00006D36 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +160,16 @@
 				DA722ABE15592B9600006D36 /* AppDelegate.h */,
 				DA722ABF15592B9600006D36 /* AppDelegate.m */,
 				DA722AB615592B9600006D36 /* Supporting Files */,
+				DA722AD315592C1100006D36 /* InfoCategoriesViewController.h */,
+				DA722AD415592C1100006D36 /* InfoCategoriesViewController.m */,
+				DA722ADA15592E3100006D36 /* StadiumsViewController.h */,
+				DA722ADB15592E3100006D36 /* StadiumsViewController.m */,
+				DA84BE0C15597E7F00C7D7A2 /* TeamsViewController.h */,
+				DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */,
+				DA722AE01559305F00006D36 /* TablePListDAO.h */,
+				DA722AE11559305F00006D36 /* TablePListDAO.m */,
+				DA722AE51559387700006D36 /* URLWebViewController.h */,
+				DA722AE61559387700006D36 /* URLWebViewController.m */,
 			);
 			path = EuroCopaInfo;
 			sourceTree = "<group>";
@@ -88,6 +183,42 @@
 				DA722ABD15592B9600006D36 /* EuroCopaInfo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA722AC715592BB600006D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA722AD015592BB700006D36 /* libFRLayeredNavigationController.a */,
+				DA722AD215592BB700006D36 /* FRLayeredNavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA722ADD15592E8D00006D36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA84BE13155989D200C7D7A2 /* teams.png */,
+				DA84BE14155989D200C7D7A2 /* stadiums.png */,
+				DA84BDE815597BBE00C7D7A2 /* Croatia.png */,
+				DA84BDE915597BBE00C7D7A2 /* Denmark.png */,
+				DA84BDEA15597BBE00C7D7A2 /* England.png */,
+				DA84BDEB15597BBE00C7D7A2 /* France.png */,
+				DA84BDEC15597BBE00C7D7A2 /* Germany.png */,
+				DA84BDED15597BBE00C7D7A2 /* Greece.png */,
+				DA84BDEE15597BBE00C7D7A2 /* Ireland.png */,
+				DA84BDEF15597BBE00C7D7A2 /* Italy.png */,
+				DA84BDF015597BBE00C7D7A2 /* Poland.png */,
+				DA84BDF115597BBE00C7D7A2 /* Portugal.png */,
+				DA84BDF215597BBE00C7D7A2 /* Russia.png */,
+				DA84BDF315597BBE00C7D7A2 /* Spain.png */,
+				DA84BDF415597BBE00C7D7A2 /* Sweden.png */,
+				DA84BDF515597BBE00C7D7A2 /* Czech_Republic.png */,
+				DA84BDF615597BBE00C7D7A2 /* Netherlands.png */,
+				DA84BDF715597BBE00C7D7A2 /* Ukraine.png */,
+				DA722ADE15592EB100006D36 /* Stadiums.plist */,
+				DA84BE0815597C1500C7D7A2 /* Teams.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +235,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DA722AE41559340F00006D36 /* PBXTargetDependency */,
 			);
 			name = EuroCopaInfo;
 			productName = EuroCopaInfo;
@@ -128,6 +260,12 @@
 			mainGroup = DA722AA015592B9600006D36;
 			productRefGroup = DA722AAC15592B9600006D36 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DA722AC715592BB600006D36 /* Products */;
+					ProjectRef = DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DA722AAA15592B9600006D36 /* EuroCopaInfo */,
@@ -135,12 +273,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DA722AD015592BB700006D36 /* libFRLayeredNavigationController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFRLayeredNavigationController.a;
+			remoteRef = DA722ACF15592BB700006D36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA722AD215592BB700006D36 /* FRLayeredNavigationControllerDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FRLayeredNavigationControllerDemo.app;
+			remoteRef = DA722AD115592BB700006D36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		DA722AA915592B9600006D36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA722ABA15592B9600006D36 /* InfoPlist.strings in Resources */,
+				DA722ADF15592EB100006D36 /* Stadiums.plist in Resources */,
+				DA84BDF815597BBE00C7D7A2 /* Croatia.png in Resources */,
+				DA84BDF915597BBF00C7D7A2 /* Denmark.png in Resources */,
+				DA84BDFA15597BBF00C7D7A2 /* England.png in Resources */,
+				DA84BDFB15597BBF00C7D7A2 /* France.png in Resources */,
+				DA84BDFC15597BBF00C7D7A2 /* Germany.png in Resources */,
+				DA84BDFD15597BBF00C7D7A2 /* Greece.png in Resources */,
+				DA84BDFE15597BBF00C7D7A2 /* Ireland.png in Resources */,
+				DA84BDFF15597BBF00C7D7A2 /* Italy.png in Resources */,
+				DA84BE0015597BBF00C7D7A2 /* Poland.png in Resources */,
+				DA84BE0115597BBF00C7D7A2 /* Portugal.png in Resources */,
+				DA84BE0215597BBF00C7D7A2 /* Russia.png in Resources */,
+				DA84BE0315597BBF00C7D7A2 /* Spain.png in Resources */,
+				DA84BE0415597BBF00C7D7A2 /* Sweden.png in Resources */,
+				DA84BE0515597BBF00C7D7A2 /* Czech_Republic.png in Resources */,
+				DA84BE0615597BBF00C7D7A2 /* Netherlands.png in Resources */,
+				DA84BE0715597BBF00C7D7A2 /* Ukraine.png in Resources */,
+				DA84BE0915597C1500C7D7A2 /* Teams.plist in Resources */,
+				DA84BE0D15597E7F00C7D7A2 /* TeamsViewController.h in Resources */,
+				DA84BE15155989D200C7D7A2 /* teams.png in Resources */,
+				DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,10 +329,23 @@
 			files = (
 				DA722ABC15592B9600006D36 /* main.m in Sources */,
 				DA722AC015592B9600006D36 /* AppDelegate.m in Sources */,
+				DA722AD515592C1100006D36 /* InfoCategoriesViewController.m in Sources */,
+				DA722ADC15592E3100006D36 /* StadiumsViewController.m in Sources */,
+				DA722AE21559305F00006D36 /* TablePListDAO.m in Sources */,
+				DA722AE71559387700006D36 /* URLWebViewController.m in Sources */,
+				DA84BE0F15597E9400C7D7A2 /* TeamsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA722AE41559340F00006D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FRLayeredNavigationController;
+			targetProxy = DA722AE31559340F00006D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DA722AB815592B9600006D36 /* InfoPlist.strings */ = {
@@ -222,7 +411,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EuroCopaInfo/EuroCopaInfo-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../FRLayeredNavigationController;
 				INFOPLIST_FILE = "EuroCopaInfo/EuroCopaInfo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -233,7 +427,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EuroCopaInfo/EuroCopaInfo-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../FRLayeredNavigationController;
 				INFOPLIST_FILE = "EuroCopaInfo/EuroCopaInfo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +457,7 @@
 				DA722AC515592B9600006D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
