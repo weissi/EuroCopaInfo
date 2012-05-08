@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AAF15592B9600006D36 /* UIKit.framework */; };
+		DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AB115592B9600006D36 /* Foundation.framework */; };
+		DA722AB415592B9600006D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AB315592B9600006D36 /* CoreGraphics.framework */; };
+		DA722ABA15592B9600006D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA722AB815592B9600006D36 /* InfoPlist.strings */; };
+		DA722ABC15592B9600006D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ABB15592B9600006D36 /* main.m */; };
+		DA722AC015592B9600006D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ABF15592B9600006D36 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA722AAB15592B9600006D36 /* EuroCopaInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroCopaInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA722AAF15592B9600006D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA722AB115592B9600006D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA722AB315592B9600006D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA722AB715592B9600006D36 /* EuroCopaInfo-Info.plist */ = {isa = PBXFileReference; path = "EuroCopaInfo-Info.plist"; sourceTree = "<group>"; };
+		DA722AB915592B9600006D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA722ABB15592B9600006D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA722ABD15592B9600006D36 /* EuroCopaInfo-Prefix.pch */ = {isa = PBXFileReference; path = "EuroCopaInfo-Prefix.pch"; sourceTree = "<group>"; };
+		DA722ABE15592B9600006D36 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA722ABF15592B9600006D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA722AA815592B9600006D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */,
+				DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */,
+				DA722AB415592B9600006D36 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA722AA015592B9600006D36 = {
+			isa = PBXGroup;
+			children = (
+				DA722AB515592B9600006D36 /* EuroCopaInfo */,
+				DA722AAE15592B9600006D36 /* Frameworks */,
+				DA722AAC15592B9600006D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA722AAC15592B9600006D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA722AAB15592B9600006D36 /* EuroCopaInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA722AAE15592B9600006D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA722AAF15592B9600006D36 /* UIKit.framework */,
+				DA722AB115592B9600006D36 /* Foundation.framework */,
+				DA722AB315592B9600006D36 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA722AB515592B9600006D36 /* EuroCopaInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DA722ABE15592B9600006D36 /* AppDelegate.h */,
+				DA722ABF15592B9600006D36 /* AppDelegate.m */,
+				DA722AB615592B9600006D36 /* Supporting Files */,
+			);
+			path = EuroCopaInfo;
+			sourceTree = "<group>";
+		};
+		DA722AB615592B9600006D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA722AB715592B9600006D36 /* EuroCopaInfo-Info.plist */,
+				DA722AB815592B9600006D36 /* InfoPlist.strings */,
+				DA722ABB15592B9600006D36 /* main.m */,
+				DA722ABD15592B9600006D36 /* EuroCopaInfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA722AAA15592B9600006D36 /* EuroCopaInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA722AC315592B9600006D36 /* Build configuration list for PBXNativeTarget "EuroCopaInfo" */;
+			buildPhases = (
+				DA722AA715592B9600006D36 /* Sources */,
+				DA722AA815592B9600006D36 /* Frameworks */,
+				DA722AA915592B9600006D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuroCopaInfo;
+			productName = EuroCopaInfo;
+			productReference = DA722AAB15592B9600006D36 /* EuroCopaInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA722AA215592B9600006D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA722AA515592B9600006D36 /* Build configuration list for PBXProject "EuroCopaInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA722AA015592B9600006D36;
+			productRefGroup = DA722AAC15592B9600006D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA722AAA15592B9600006D36 /* EuroCopaInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA722AA915592B9600006D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA722ABA15592B9600006D36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA722AA715592B9600006D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA722ABC15592B9600006D36 /* main.m in Sources */,
+				DA722AC015592B9600006D36 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA722AB815592B9600006D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA722AB915592B9600006D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA722AC115592B9600006D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DA722AC215592B9600006D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA722AC415592B9600006D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EuroCopaInfo/EuroCopaInfo-Prefix.pch";
+				INFOPLIST_FILE = "EuroCopaInfo/EuroCopaInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA722AC515592B9600006D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EuroCopaInfo/EuroCopaInfo-Prefix.pch";
+				INFOPLIST_FILE = "EuroCopaInfo/EuroCopaInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA722AA515592B9600006D36 /* Build configuration list for PBXProject "EuroCopaInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA722AC115592B9600006D36 /* Debug */,
+				DA722AC215592B9600006D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA722AC315592B9600006D36 /* Build configuration list for PBXNativeTarget "EuroCopaInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA722AC415592B9600006D36 /* Debug */,
+				DA722AC515592B9600006D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA722AA215592B9600006D36 /* Project object */;
+}
