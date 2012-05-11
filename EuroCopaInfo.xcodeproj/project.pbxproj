@@ -18,7 +18,6 @@
 		DA722ADC15592E3100006D36 /* StadiumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722ADB15592E3100006D36 /* StadiumsViewController.m */; };
 		DA722ADF15592EB100006D36 /* Stadiums.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA722ADE15592EB100006D36 /* Stadiums.plist */; };
 		DA722AE21559305F00006D36 /* TablePListDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722AE11559305F00006D36 /* TablePListDAO.m */; };
-		DA722AE71559387700006D36 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA722AE61559387700006D36 /* URLWebViewController.m */; };
 		DA84BDF815597BBE00C7D7A2 /* Croatia.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDE815597BBE00C7D7A2 /* Croatia.png */; };
 		DA84BDF915597BBF00C7D7A2 /* Denmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDE915597BBE00C7D7A2 /* Denmark.png */; };
 		DA84BDFA15597BBF00C7D7A2 /* England.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BDEA15597BBE00C7D7A2 /* England.png */; };
@@ -40,6 +39,7 @@
 		DA84BE0F15597E9400C7D7A2 /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */; };
 		DA84BE15155989D200C7D7A2 /* teams.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE13155989D200C7D7A2 /* teams.png */; };
 		DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE14155989D200C7D7A2 /* stadiums.png */; };
+		DAAB20C6155D469100C5CAA5 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,6 @@
 		DA722ADE15592EB100006D36 /* Stadiums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stadiums.plist; sourceTree = "<group>"; };
 		DA722AE01559305F00006D36 /* TablePListDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePListDAO.h; sourceTree = "<group>"; };
 		DA722AE11559305F00006D36 /* TablePListDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePListDAO.m; sourceTree = "<group>"; };
-		DA722AE51559387700006D36 /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLWebViewController.h; path = ../../FactisApp/Classes/URLWebViewController.h; sourceTree = "<group>"; };
-		DA722AE61559387700006D36 /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLWebViewController.m; path = ../../FactisApp/Classes/URLWebViewController.m; sourceTree = "<group>"; };
 		DA84BDE815597BBE00C7D7A2 /* Croatia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Croatia.png; sourceTree = "<group>"; };
 		DA84BDE915597BBE00C7D7A2 /* Denmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Denmark.png; sourceTree = "<group>"; };
 		DA84BDEA15597BBE00C7D7A2 /* England.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = England.png; sourceTree = "<group>"; };
@@ -108,6 +106,8 @@
 		DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
 		DA84BE13155989D200C7D7A2 /* teams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams.png; sourceTree = "<group>"; };
 		DA84BE14155989D200C7D7A2 /* stadiums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadiums.png; sourceTree = "<group>"; };
+		DAAB20C4155D469100C5CAA5 /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLWebViewController.h; sourceTree = "<group>"; };
+		DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +157,8 @@
 		DA722AB515592B9600006D36 /* EuroCopaInfo */ = {
 			isa = PBXGroup;
 			children = (
+				DAAB20C4155D469100C5CAA5 /* URLWebViewController.h */,
+				DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */,
 				DA722ABE15592B9600006D36 /* AppDelegate.h */,
 				DA722ABF15592B9600006D36 /* AppDelegate.m */,
 				DA722AB615592B9600006D36 /* Supporting Files */,
@@ -168,8 +170,6 @@
 				DA84BE0E15597E9400C7D7A2 /* TeamsViewController.m */,
 				DA722AE01559305F00006D36 /* TablePListDAO.h */,
 				DA722AE11559305F00006D36 /* TablePListDAO.m */,
-				DA722AE51559387700006D36 /* URLWebViewController.h */,
-				DA722AE61559387700006D36 /* URLWebViewController.m */,
 			);
 			path = EuroCopaInfo;
 			sourceTree = "<group>";
@@ -332,8 +332,8 @@
 				DA722AD515592C1100006D36 /* InfoCategoriesViewController.m in Sources */,
 				DA722ADC15592E3100006D36 /* StadiumsViewController.m in Sources */,
 				DA722AE21559305F00006D36 /* TablePListDAO.m in Sources */,
-				DA722AE71559387700006D36 /* URLWebViewController.m in Sources */,
 				DA84BE0F15597E9400C7D7A2 /* TeamsViewController.m in Sources */,
+				DAAB20C6155D469100C5CAA5 /* URLWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
