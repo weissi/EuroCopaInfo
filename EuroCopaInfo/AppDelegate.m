@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "FRLayeredNavigationController/FRLayeredNavigationController.h"
+#import "FRLayeredNavigationController/FRLayeredNavigation.h"
 #import "InfoCategoriesViewController.h"
 
 @implementation AppDelegate

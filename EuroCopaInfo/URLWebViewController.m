@@ -7,6 +7,7 @@
 //
 
 #import "URLWebViewController.h"
+#import "FRLayeredNavigationController/FRLayeredNavigation.h"
 
 @interface URLWebViewController ()
 @property (nonatomic, retain) NSURL *initialURL;
@@ -66,6 +67,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadURL:self.initialURL];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.layeredNavigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
+                                                    initWithImage:[UIImage imageNamed:@"back.png"]
+                                                    style:UIBarButtonItemStylePlain
+                                                    target:self.webView
+                                                    action:@selector(goBack)];
+    self.layeredNavigationItem.leftBarButtonItem.style = UIBarButtonItemStyleBordered;
 }
 
 - (void)loadURL:(NSURL *)url {
