@@ -43,6 +43,7 @@
 		DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE14155989D200C7D7A2 /* stadiums.png */; };
 		DAAB20C6155D469100C5CAA5 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */; };
 		DAB8C699155EB3C800340CB7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB8C698155EB3C800340CB7 /* back.png */; };
+		DAB8C6D0155EBFE600340CB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB8C6CF155EBFE600340CB7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		DAAB20C4155D469100C5CAA5 /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLWebViewController.h; sourceTree = "<group>"; };
 		DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLWebViewController.m; sourceTree = "<group>"; };
 		DAB8C698155EB3C800340CB7 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		DAB8C6CF155EBFE600340CB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB8C6D0155EBFE600340CB7 /* QuartzCore.framework in Frameworks */,
 				DA722AD615592D0300006D36 /* libFRLayeredNavigationController.a in Frameworks */,
 				DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */,
 				DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */,
@@ -134,6 +137,7 @@
 		DA722AA015592B9600006D36 = {
 			isa = PBXGroup;
 			children = (
+				DAB8C6CF155EBFE600340CB7 /* QuartzCore.framework */,
 				DA722AC615592BB600006D36 /* FRLayeredNavigationController.xcodeproj */,
 				DA722AB515592B9600006D36 /* EuroCopaInfo */,
 				DA722AAE15592B9600006D36 /* Frameworks */,
