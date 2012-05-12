@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA469196155D8030003361C4 /* EuroCopaInfo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA469195155D8030003361C4 /* EuroCopaInfo-logo.png */; };
+		DA469198155D8105003361C4 /* EuroCopaInfo-logo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = DA469197155D8105003361C4 /* EuroCopaInfo-logo-retina.png */; };
 		DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AAF15592B9600006D36 /* UIKit.framework */; };
 		DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AB115592B9600006D36 /* Foundation.framework */; };
 		DA722AB415592B9600006D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA722AB315592B9600006D36 /* CoreGraphics.framework */; };
@@ -40,6 +42,7 @@
 		DA84BE15155989D200C7D7A2 /* teams.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE13155989D200C7D7A2 /* teams.png */; };
 		DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE14155989D200C7D7A2 /* stadiums.png */; };
 		DAAB20C6155D469100C5CAA5 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */; };
+		DAB8C699155EB3C800340CB7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB8C698155EB3C800340CB7 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA469195155D8030003361C4 /* EuroCopaInfo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EuroCopaInfo-logo.png"; sourceTree = "<group>"; };
+		DA469197155D8105003361C4 /* EuroCopaInfo-logo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EuroCopaInfo-logo-retina.png"; sourceTree = "<group>"; };
 		DA722AAB15592B9600006D36 /* EuroCopaInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroCopaInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA722AAF15592B9600006D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA722AB115592B9600006D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +113,7 @@
 		DA84BE14155989D200C7D7A2 /* stadiums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadiums.png; sourceTree = "<group>"; };
 		DAAB20C4155D469100C5CAA5 /* URLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLWebViewController.h; sourceTree = "<group>"; };
 		DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLWebViewController.m; sourceTree = "<group>"; };
+		DAB8C698155EB3C800340CB7 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +203,9 @@
 		DA722ADD15592E8D00006D36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAB8C698155EB3C800340CB7 /* back.png */,
+				DA469197155D8105003361C4 /* EuroCopaInfo-logo-retina.png */,
+				DA469195155D8030003361C4 /* EuroCopaInfo-logo.png */,
 				DA84BE13155989D200C7D7A2 /* teams.png */,
 				DA84BE14155989D200C7D7A2 /* stadiums.png */,
 				DA84BDE815597BBE00C7D7A2 /* Croatia.png */,
@@ -317,6 +326,9 @@
 				DA84BE0D15597E7F00C7D7A2 /* TeamsViewController.h in Resources */,
 				DA84BE15155989D200C7D7A2 /* teams.png in Resources */,
 				DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */,
+				DA469196155D8030003361C4 /* EuroCopaInfo-logo.png in Resources */,
+				DA469198155D8105003361C4 /* EuroCopaInfo-logo-retina.png in Resources */,
+				DAB8C699155EB3C800340CB7 /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +437,8 @@
 		DA722AC515592B9600006D36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: factis research GmbH";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: factis research GmbH";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EuroCopaInfo/EuroCopaInfo-Prefix.pch";
 				HEADER_SEARCH_PATHS = ../FRLayeredNavigationController;
@@ -434,6 +448,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1DF9E4DF-144D-4DD5-81F5-B4A7DD3223B3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1DF9E4DF-144D-4DD5-81F5-B4A7DD3223B3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
