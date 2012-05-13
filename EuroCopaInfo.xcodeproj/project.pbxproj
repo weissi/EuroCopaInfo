@@ -43,7 +43,6 @@
 		DA84BE16155989D200C7D7A2 /* stadiums.png in Resources */ = {isa = PBXBuildFile; fileRef = DA84BE14155989D200C7D7A2 /* stadiums.png */; };
 		DAAB20C6155D469100C5CAA5 /* URLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAB20C5155D469100C5CAA5 /* URLWebViewController.m */; };
 		DAB8C699155EB3C800340CB7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB8C698155EB3C800340CB7 /* back.png */; };
-		DAB8C6D0155EBFE600340CB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB8C6CF155EBFE600340CB7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB8C6D0155EBFE600340CB7 /* QuartzCore.framework in Frameworks */,
 				DA722AD615592D0300006D36 /* libFRLayeredNavigationController.a in Frameworks */,
 				DA722AB015592B9600006D36 /* UIKit.framework in Frameworks */,
 				DA722AB215592B9600006D36 /* Foundation.framework in Frameworks */,
