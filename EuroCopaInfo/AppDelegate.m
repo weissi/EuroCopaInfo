@@ -22,7 +22,7 @@
     
     InfoCategoriesViewController *icvc = [[InfoCategoriesViewController alloc] init];
     FRLayeredNavigationController *lnc = [[FRLayeredNavigationController alloc] initWithRootViewController:icvc configuration:^(FRLayeredNavigationItem *item) {
-        item.nextItemDistance = 49;
+        item.nextItemDistance = 60;
     }];
     self.window.rootViewController = lnc;
     [self.window makeKeyAndVisible];

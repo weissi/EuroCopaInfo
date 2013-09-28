@@ -31,7 +31,7 @@
     [super viewDidLoad];
     
     UITableView *tv = (UITableView *)self.view;
-    tv.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
+    tv.backgroundColor = [UIColor whiteColor];
     tv.separatorColor = [UIColor darkGrayColor];
 }
 
