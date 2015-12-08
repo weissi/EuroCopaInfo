@@ -9,7 +9,7 @@
 		<array>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/National_Stadium,_Warsaw</string>
+				<string>https://en.wikipedia.org/wiki/National_Stadium,_Warsaw</string>
 				<key>name</key>
 				<string>National Stadium</string>
 				<key>city</key>
@@ -19,7 +19,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/PGE_Arena_Gda%C5%84sk</string>
+				<string>https://en.wikipedia.org/wiki/PGE_Arena_Gda%C5%84sk</string>
 				<key>name</key>
 				<string>PGE Arena</string>
 				<key>city</key>
@@ -29,7 +29,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Stadion_Miejski_(Wroc%C5%82aw)</string>
+				<string>https://en.wikipedia.org/wiki/Stadion_Miejski_(Wroc%C5%82aw)</string>
 				<key>name</key>
 				<string>Municipal Stadium</string>
 				<key>city</key>
@@ -39,7 +39,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Stadion_Miejski_(Pozna%C5%84)</string>
+				<string>https://en.wikipedia.org/wiki/Stadion_Miejski_(Pozna%C5%84)</string>
 				<key>name</key>
 				<string>Municipal Stadium</string>
 				<key>city</key>
@@ -56,7 +56,7 @@
 		<array>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Olimpiysky_National_Sports_Complex</string>
+				<string>https://en.wikipedia.org/wiki/Olimpiysky_National_Sports_Complex</string>
 				<key>name</key>
 				<string>Olympic Stadium</string>
 				<key>city</key>
@@ -66,7 +66,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Donbass_Arena</string>
+				<string>https://en.wikipedia.org/wiki/Donbass_Arena</string>
 				<key>name</key>
 				<string>Donbass Arena</string>
 				<key>city</key>
@@ -76,7 +76,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Metalist_Stadium</string>
+				<string>https://en.wikipedia.org/wiki/Metalist_Stadium</string>
 				<key>name</key>
 				<string>Metalist Stadium</string>
 				<key>city</key>
@@ -86,7 +86,7 @@
 			</dict>
 			<dict>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Arena_Lviv</string>
+				<string>https://en.wikipedia.org/wiki/Arena_Lviv</string>
 				<key>name</key>
 				<string>Arena Lviv</string>
 				<key>city</key>

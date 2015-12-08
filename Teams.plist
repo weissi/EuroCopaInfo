@@ -13,7 +13,7 @@
 				<key>icon</key>
 				<string>Poland.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Poland_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Poland_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -21,7 +21,7 @@
 				<key>icon</key>
 				<string>Greece.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Greece_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Greece_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -29,7 +29,7 @@
 				<key>icon</key>
 				<string>Russia.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Russia_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Russia_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -37,7 +37,7 @@
 				<key>icon</key>
 				<string>Czech_Republic.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Czech_Republic_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Czech_Republic_national_football_team</string>
 			</dict>
 		</array>
 	</dict>
@@ -52,7 +52,7 @@
 				<key>icon</key>
 				<string>Netherlands.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Netherlands_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Netherlands_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -60,7 +60,7 @@
 				<key>icon</key>
 				<string>Denmark.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Denmark_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Denmark_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -68,7 +68,7 @@
 				<key>icon</key>
 				<string>Germany.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Germany_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Germany_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -76,7 +76,7 @@
 				<key>icon</key>
 				<string>Portugal.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Portugal_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Portugal_national_football_team</string>
 			</dict>
 		</array>
 	</dict>
@@ -89,7 +89,7 @@
 				<key>icon</key>
 				<string>Spain.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Spain_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Spain_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -97,7 +97,7 @@
 				<key>icon</key>
 				<string>Italy.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Italy_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Italy_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -105,7 +105,7 @@
 				<key>icon</key>
 				<string>Ireland.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -113,7 +113,7 @@
 				<key>icon</key>
 				<string>Croatia.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Croatia_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Croatia_national_football_team</string>
 			</dict>
 		</array>
 		<key>name</key>
@@ -128,7 +128,7 @@
 				<key>icon</key>
 				<string>Ukraine.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Ukraine_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Ukraine_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -136,7 +136,7 @@
 				<key>icon</key>
 				<string>Sweden.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/Sweden_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/Sweden_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -144,7 +144,7 @@
 				<key>icon</key>
 				<string>France.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/France_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/France_national_football_team</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -152,7 +152,7 @@
 				<key>icon</key>
 				<string>England.png</string>
 				<key>wikipedia-url</key>
-				<string>http://en.wikipedia.org/wiki/England_national_football_team</string>
+				<string>https://en.wikipedia.org/wiki/England_national_football_team</string>
 			</dict>
 		</array>
 		<key>name</key>

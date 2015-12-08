@@ -58,7 +58,7 @@
     w.delegate = self;
     w.userInteractionEnabled = YES;
     w.scalesPageToFit = YES;
-    w.backgroundColor = [UIColor clearColor];
+    w.backgroundColor = [UIColor whiteColor];
     w.opaque = NO;
     self.webView = w;
     self.view = w;
